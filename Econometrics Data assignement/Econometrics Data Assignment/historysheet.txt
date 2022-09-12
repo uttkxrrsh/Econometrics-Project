@@ -1,0 +1,340 @@
+library(readxl)
+main <- read_excel("main.xlsx")
+View(main)
+gc()
+View(main)
+View(main)
+View(main)
+data <- read.csv(file = "main.csv")
+View(data)
+view(data[100][100])
+data[100,]
+str(data)
+data$gdp <- c()
+view(data)
+View(data)
+data[0,]
+df[,gdp]<-0
+data[rowid]
+data[rowid,]
+data$gdp <- 0
+view(data)
+View(data)
+data$tap <- 0
+data$bed <- 0
+write.csv(data, file = "main.csv")
+print(data)
+data[0,]
+data <- subset(data, select(-c(beds,tap)))
+data <- subset(data, select=-c(beds,tap))
+data <- subset(data, select=-c(bed,tap))
+View(data)
+data$beds <- 0
+data$tap <- 0
+View(data)
+data[0,]
+write(data, file = "main.csv")
+write(data, file = "main.csv")
+write(data, file = "main.csv")
+write(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+gdpdata1 <- read.csv(file = "statewisedata")
+gdpdata1 <- read.csv(file = "statewisedata.csv")
+gdpdata2 <- read.csv(file = "statewisedata2.csv")
+gdpdata1 <- read.csv(file = "statewisedata.csv")
+gdpdata2 <- read.csv(file = "statewisedata2.csv")
+str(gdpdata1)
+str(gdpdata2)
+print(gdpdat1$id)
+print(gdpdata1$id)
+print(gdpdata1$state)
+gdpdata1$state[2]
+for(x in gdpdata$state){
+print(x)
+}
+for(x in gdpdata1$state){
+print(x)
+}
+for(x in gdpdata1$state){
+print(x)
+print("\n")
+}
+print(\n)
+for(x in gdpdata1$state){
+print(x)
+print("  ")
+}
+for(x in gdpdata1$state){
+print(tolower(x))
+}
+View(data)
+View(data)
+View(gdpdata1)
+View(gdpdata2)
+for(x in gdpdata1){
+for(y in data){
+if(tolower(x$state) == tolower(y$state)){
+print(x$state)
+}
+}
+}
+for(x in gdpdata1){
+print(x)
+}
+for(x in gdpdata1){
+print(x$state)
+}
+for(x in gdpdata1){
+print(x$state[1])
+}
+for(x in gdpdatat){
+print(x[i[2]])
+}
+for(x in gdpdata1){
+print(x[i[2]])
+}
+for(x in gdpdata1){
+print(gdpdata[x][2])
+}
+for(x in gdpdata1){
+print(gdpdata1[x][2])
+}
+print(gdpdata1)
+print(data[1][2])
+print(data[1])
+print(data[3])
+print(data[6])
+print(data[6][997])
+for(i in 1:10){
+print(data[i])
+}
+for(i in 1:10){
+print(data[6][i])
+}
+for(i in 1:10){
+print(data[6,i])
+}
+for(i in 1:10){
+print(data[i,6])
+}
+for(i in 1:10){
+print(data[i,6])
+}
+View(gdpdata1)
+View(gdpdata1)
+View(data)
+View(data)
+gdpdata1 <- read.csv(file = "statewisedata.csv")
+gdpdata2 <- read.csv(file = "statewisedata2.csv")
+for(i in 1:32){
+print(statewisedata1[i, 1])
+}
+gdpdata1 <- read.csv(file = "statewisedata.csv")
+gdpdata2 <- read.csv(file = "statewisedata2.csv")
+for(i in 1:32){
+print(gdpdata1[i, 1])
+}
+for(i in 1:32){
+print(gdpdata1[i, 2])
+}
+View(main)
+View(gdpdata1)
+View(gdpdata1)
+View(data)
+str(data)
+databackup <- data
+data$gdp <- null
+data$gdp <- na
+data$gdp <- ''
+data$beds <- ''
+data$tap <- ''
+for(i in 1:32){
+for(j in 1:70572){
+if(tolower(gdpdata1[i,2]) == tolower(main[j,4])){
+if(main[j,7] == 2007){
+main[j, 71] = gdpdata1[i, 3]
+}
+if(main[j,7] == 2008){
+main[j, 71] = gdpdata1[i, 4]
+}
+if(main[j,7] == 2009){
+main[j, 71] = gdpdata1[i, 5]
+}
+if(main[j,7] == 2010){
+main[j, 71] = gdpdata1[i, 6]
+}
+if(main[j,7] == 2011){
+main[j, 71] = gdpdata1[i, 7]
+}
+}
+}
+}
+for(i in 1:32){
+for(j in 1:70572){
+if(tolower(gdpdata1[i,2]) == tolower(data[j,4])){
+if(data[j,7] == 2007){
+data[j, 71] = gdpdata1[i, 3]
+}
+if(data[j,7] == 2008){
+data[j, 71] = gdpdata1[i, 4]
+}
+if(data[j,7] == 2009){
+data[j, 71] = gdpdata1[i, 5]
+}
+if(data[j,7] == 2010){
+data[j, 71] = gdpdata1[i, 6]
+}
+if(data[j,7] == 2011){
+data[j, 71] = gdpdata1[i, 7]
+}
+}
+}
+}
+print(data)
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+<- ''
+data$beds <- ''
+for(i in 1:32){
+for(j in 1:70572){
+if(tolower(gdpdata1[i,2]) == tolower(data[j,4])){
+if(data[j,7] == 2007){
+data[j, 70] = gdpdata1[i, 3]
+}
+if(data[j,7] == 2008){
+data[j, 70] = gdpdata1[i, 4]
+}
+if(data[j,7] == 2009){
+data[j, 70] = gdpdata1[i, 5]
+}
+if(data[j,7] == 2010){
+data[j, 70] = gdpdata1[i, 6]
+}
+if(data[j,7] == 2011){
+data[j, 70] = gdpdata1[i, 7]
+}
+}
+}
+}
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+for(i in 1:33){
+for(j in 1:70572){
+if(tolower(gdpdata1[i,2]) == tolower(data[j,4])){
+if(data[j,7] == 2012){
+data[j, 70] = gdpdata2[i, 3]
+}
+if(data[j,7] == 2013){
+data[j, 70] = gdpdata2[i, 4]
+}
+if(data[j,7] == 2014){
+data[j, 70] = gdpdata2[i, 5]
+}
+if(data[j,7] == 2015){
+data[j, 70] = gdpdata2[i, 6]
+}
+if(data[j,7] == 2016){
+data[j, 70] = gdpdata2[i, 7]
+}
+if(data[j,7] == 2017){
+data[j, 70] = gdpdata2[i, 8]
+}
+if(data[j,7] == 2018){
+data[j, 70] = gdpdata2[i, 9]
+}
+if(data[j,7] == 2019){
+data[j, 70] = gdpdata2[i, 10]
+}
+}
+}
+}
+data <- data
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+bedsdata <- read.csv(file = "2020beds.csv")
+write.csv(data, file = "mainnew.csv")
+for(i in 1:35){
+for(j in 1:70572){
+if(tolower(bedsdata[i,2]) == tolower(data[j,4])){
+data[j,71] = beds2020[i,3]
+}
+}
+}
+for(i in 1:35){
+for(j in 1:70572){
+if(tolower(bedsdata[i,2]) == tolower(data[j,4])){
+data[j,71] = bedsdata[i,3]
+}
+}
+}
+bedsdata <- read.csv(file = "2020beds.csv")
+for(i in 1:35){
+for(j in 1:70572){
+if(tolower(bedsdata[i,2]) == tolower(data[j,4])){
+data[j,71] = bedsdata[i,3]
+}
+}
+}
+write.csv(data, file = "main.csv")
+write.csv(data, file = "mainnew.csv")
+tapwater <- read.csv(file = "tapwater.csv")
+View(main)
+View(tapwater)
+for(i in 1:724){
+for(j in 1:70572){
+if(tolower(tapwater[i,2]) == tolower(data[j,6])){
+data[j,72] = tapwater[i,3]
+}
+}
+}
+View(data)
+View(data)
+data$tap <- ''
+View(bedsdata)
+View(data)
+View(data)
+for(i in 1:724){
+for(j in 1:70572){
+if(tolower(tapwater[i,2]) == tolower(data[j,6])){
+data[j,72] = tapwater[i,3]
+}
+}
+}
+View(data)
+View(data)
+write.csv(data, file = "main.csv")
+for(i in 1:724){
+for(j in 30688:70572){
+if(tolower(tapwater[i,2]) == tolower(data[j,6])){
+data[j,72] = tapwater[i,3]
+}
+}
+}
+View(data)
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+for(i in 322:724){
+for(j in 30688:70572){
+if(tolower(tapwater[i,2]) == tolower(data[j,6])){
+data[j,72] = tapwater[i,3]
+}
+}
+}
+View(data)
+View(data)
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+for(i in 430:724){
+for(j in 40120:70572){
+if(tapwater[i,2] == data[j,6]){
+data[j,72] = tapwater[i,3]
+}
+}
+}
+View(data)
+View(data)
+write.csv(data, file = "main.csv")
+write.csv(data, file = "main.csv")
+savehistory("C:/Users/ussin/Desktop/SEMESTER_4/Econometrics/Econometrics Data assignement/Econometrics Data Assignment/historysheet.Rhistory")
+savehistory("C:/Users/ussin/Desktop/SEMESTER_4/Econometrics/Econometrics Data assignement/Econometrics Data Assignment/historysheet.txt")
